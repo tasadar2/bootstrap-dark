@@ -1,0 +1,23 @@
+{
+    "name": "bootstrap-dark",
+    "version": "1.0.0",
+    "description": "Dark mode compatible bootstrap",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tasadar2/bootstrap-dark.git"
+    },
+    "keywords": [
+        "bootstrap",
+        "dark"
+    ],
+    "author": "https://github.com/tasadar2",
+    "license": "Unlicense",
+    "bugs": {
+        "url": "https://github.com/tasadar2/bootstrap-dark/issues"
+    },
+    "homepage": "https://github.com/tasadar2/bootstrap-dark#readme",
+    "dependencies": {
+        "bootstrap": "^5.1.3"
+    },
+    "sass": "src/bootstrap-dark.scss"
+}

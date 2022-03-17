@@ -1,0 +1,95 @@
+// Configuration
+@import "bootstrap/scss/functions";
+@import "dark/functions";
+@import "bootstrap/scss/variables";
+@import "variables-alt";
+@import "bootstrap/scss/mixins";
+@import "dark/mixins";
+@import "bootstrap/scss/utilities";
+@import "dark/utilities";
+@import "dark/patch";
+
+// Layout & components
+@import "dark/color-scheme";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/accordion";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/pagination";
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/progress";
+@import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+@import "bootstrap/scss/toasts";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/tooltip";
+@import "bootstrap/scss/popover";
+@import "bootstrap/scss/carousel";
+@import "bootstrap/scss/spinners";
+@import "bootstrap/scss/offcanvas";
+@import "bootstrap/scss/placeholders";
+
+// Helpers
+@import "bootstrap/scss/helpers";
+
+// Utilities
+@import "bootstrap/scss/utilities/api";
+
+@include color-scheme-alt(alternative-color-scheme($default-color-scheme)) {
+
+    // Layout & components
+    @import "dark/root";
+    @import "dark/reboot";
+    @import "dark/type";
+    @import "dark/images";
+    @import "dark/tables";
+    @import "dark/forms";
+    @import "dark/buttons";
+    @import "dark/dropdown";
+    @import "dark/button-group";
+    @import "dark/nav";
+    @import "dark/navbar";
+    @import "dark/card";
+    @import "dark/accordion";
+    @import "dark/breadcrumb";
+    @import "dark/pagination";
+    @import "dark/badge";
+    @import "dark/alert";
+    @import "dark/progress";
+    @import "dark/list-group";
+    @import "dark/close";
+    @import "dark/toasts";
+    @import "dark/modal";
+    @import "dark/tooltip";
+    @import "dark/popover";
+    @import "dark/carousel";
+    @import "dark/offcanvas";
+    @import "dark/placeholders";
+
+    // Helpers
+    @import "dark/helpers";
+
+    // Utilities
+    @import "dark/utilities/api";
+
+    // Unique to dark-mode
+    @import "dark/dark";
+}
+
+// Additional Global Utilities
+@import "dark/utilities/api-all";
+@import "auto";
